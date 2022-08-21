@@ -21,6 +21,9 @@ function Home() {
         <p>
           <Link to="/hideshow">Day 3</Link>
         </p>
+        <p>
+          <Link to="/api">Day 4</Link>
+        </p>
       </div>
     </div>
   );
