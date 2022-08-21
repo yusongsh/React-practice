@@ -60,7 +60,10 @@ function Search() {
 
           {filterData.map((filteredPerson) => {
             return (
-              <div style={displayStyle}>
+              <div
+                key={`${filteredPerson.name}-${Math.floor(Math.random())}`}
+                style={displayStyle}
+              >
                 <p>{filteredPerson.name}</p>
                 <p>{filteredPerson.email}</p>
               </div>

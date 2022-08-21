@@ -18,6 +18,9 @@ function Home() {
         <p>
           <Link to="/search">Day 2</Link>
         </p>
+        <p>
+          <Link to="/hideshow">Day 3</Link>
+        </p>
       </div>
     </div>
   );
