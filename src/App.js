@@ -4,6 +4,7 @@ import SortAge from "./components/SortAge";
 import Search from "./components/Search";
 import HideShow from "./components/HideShow";
 import ApiCall from "./components/ApiCall";
+import Color from "./components/colorPicker/Color";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/search" element={<Search />} />
         <Route path="/hideshow" element={<HideShow />} />
         <Route path="/api" element={<ApiCall />} />
+        <Route path="/colorpicker" element={<Color />} />
       </Routes>
     </div>
   );

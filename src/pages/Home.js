@@ -13,16 +13,19 @@ function Home() {
       <h1>React Daily Challenges</h1>
       <div>
         <p style={style}>
-          <Link to="/sortage">Day 1</Link>
+          <Link to="/sortage">Challenge 1 - Sort Age </Link>
         </p>
         <p>
-          <Link to="/search">Day 2</Link>
+          <Link to="/search">Challenge 2 - Search Bar</Link>
         </p>
         <p>
-          <Link to="/hideshow">Day 3</Link>
+          <Link to="/hideshow">Challenge 3 - Show/Hide toggle </Link>
         </p>
         <p>
-          <Link to="/api">Day 4</Link>
+          <Link to="/api">Challenge 4 - API call </Link>
+        </p>
+        <p>
+          <Link to="/colorpicker">Challenge 5 - Color picker </Link>
         </p>
       </div>
     </div>
